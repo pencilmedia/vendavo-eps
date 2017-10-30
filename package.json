@@ -1,5 +1,5 @@
 {
-  "name": "UXPrototypeTemplate",
+  "name": "vendavo-eps",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -22,11 +22,15 @@
     "gulp-clean": "^0.3.1",
     "kss": "^2.0.1",
     "load-grunt-tasks": "^3.0.0",
+    "main": "web.js",
     "mkdirp": "^0.5.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "4.1.1"
+  }
 }
