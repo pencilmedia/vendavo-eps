@@ -2,7 +2,11 @@
   "name": "vendavo-eps",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "gruntfile.js",
+  "engines": {
+    "node": ">= 10.4.1",
+    "npm": ">= 6.1.0"
+  },
   "dependencies": {
     "gulp-replace": "^1.0.0",
     "gulp-yuidoc": "^0.1.2"
