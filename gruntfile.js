@@ -1,6 +1,4 @@
 module.exports = function(grunt) {
-
-
   grunt.loadNpmTasks('grunt-replace');
   grunt.loadNpmTasks('grunt-include-replace');
   grunt.loadNpmTasks('grunt-contrib-copy');
@@ -141,4 +139,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['clean', 'copy', 'includereplace', 'sass']);
   grunt.registerTask('default', ['build', 'connect', 'watch']);
+  // for heroku hosting
+  grunt.registerTask('heroku', ['clean', 'copy', 'includereplace', 'sass']);
 };
