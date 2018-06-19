@@ -30,7 +30,6 @@
     "mkdirp": ">=0.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "grunt"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
