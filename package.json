@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp-replace": "^0.5.2",
+    "gulp-replace": "^1.0.0",
     "gulp-yuidoc": "^0.1.2"
   },
   "devDependencies": {
@@ -16,13 +16,12 @@
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-include-replace": "^2.0.0",
-    "grunt-replace": "^0.8.0",
+    "grunt-replace": "^1.0.0",
     "grunt-shell": "^1.1.1",
     "gulp-browserify": "^0.5.1",
     "gulp-clean": "^0.3.1",
     "kss": "^2.0.1",
     "load-grunt-tasks": "^3.0.0",
-    "main": "web.js",
     "mkdirp": "^0.5.0"
   },
   "scripts": {
