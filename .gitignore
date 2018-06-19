@@ -41,6 +41,8 @@ testem.log
 Thumbs.db
 
 
+build/*.js
+
 /node_modules
 npm-debug.log
 .DS_Store
