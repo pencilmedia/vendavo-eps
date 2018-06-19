@@ -4,8 +4,8 @@
   "description": "",
   "main": "gruntfile.js",
   "engines": {
-    "node": ">= 10.4.1",
-    "npm": ">= 6.1.0"
+    "node": "10.4.1",
+    "npm": "6.1.0"
   },
   "dependencies": {
     "gulp-replace": "^1.0.0",
