@@ -17,10 +17,10 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="@@context_/img/favicon.ico">
-    <link rel="apple-touch-icon" href="@@context_/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="@@context_/img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="@@context_/img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="@@context/_/img/favicon.ico">
+    <link rel="apple-touch-icon" href="@@context/_/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="@@context/_/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="@@context/_/img/apple-touch-icon-114x114.png">
 
     <!--[if lt IE 9]>
     <script src="@@contexthttp://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,36 +28,36 @@
 
     <!-- Bootstrap Styles
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
     <!-- Font Library
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/fontawesome/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/icomoon/dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/icomoon/dist/css/style.css">
 
     <!-- Plug-Ins Styles
     ================================================== -->
     <!-- Animate.css
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/animate.css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/select2-ng/select2.css">
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/select2-ng/select2-bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css">
-    <link rel="stylesheet" type="text/css" href="@@context_/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/select2-ng/select2.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/select2-ng/select2-bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
 
     <!-- Vendavo Style Guide Styles
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="@@context_/css/styleguide.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/css/styleguide.css">
 
     <!-- Theme Styles
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="@@context_/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="@@context/_/css/theme.css">
 
     <!-- Modernizr -->
-    <script type="text/javascript" src="@@context_/bower_components/modernizer/modernizr.js"></script>
+    <script type="text/javascript" src="@@context/_/bower_components/modernizer/modernizr.js"></script>
 
 
-    <link rel="stylesheet" href="@@context_/bower_components/highlightjs/styles/monokai_sublime.css">
+    <link rel="stylesheet" href="@@context/_/bower_components/highlightjs/styles/monokai_sublime.css">
 
     <!-- Temporary solution (should be in Vendavo npm repository => we need budget) -->
     <!-- Versioning maybe needed too -->
