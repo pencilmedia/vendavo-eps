@@ -1,5 +1,5 @@
 <h1>Overview</h1>
-<p>Prototypes for creating Vendavo apps</p>
+<p>Components for creating Vendavo apps</p>
 <div class="col-sm-4">
   <h2>Foundations</h2>
   <ul class="nav nav-stacked">
