@@ -27,7 +27,3 @@
 				hljs.highlightBlock(item);
 			});
 		</script>
-		
-
-		<!-- LiveReload -->
-		<script src="//localhost:35729/livereload.js"></script>
