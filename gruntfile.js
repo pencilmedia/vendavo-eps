@@ -8,7 +8,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   require('load-grunt-tasks')(grunt);
 
-  var optionsContext = grunt.option('context') || 'https://vendavo-eps.herokuapp.com/';
+  var optionsContext = grunt.option('context') || '/';
   var optionsDev = grunt.option('dev') || false; 
 
   grunt.initConfig({
