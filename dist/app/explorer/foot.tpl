@@ -8,10 +8,9 @@
     ================================================== -->
 
     <!--jQuery CDN -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
+  
+    <!--jQuery CDN -->
+    <script src="@@context/_/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Plug-Ins -->
     <script src="@@context/_/bower_components/fastclick/lib/fastclick.js"></script>
