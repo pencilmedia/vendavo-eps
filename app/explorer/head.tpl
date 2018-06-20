@@ -51,8 +51,6 @@
 
     <!-- Modernizr -->
     <script type="text/javascript" src="@@context/_/bower_components/modernizer/modernizr.js"></script>
-
-
     <link rel="stylesheet" href="@@context/_/bower_components/highlightjs/styles/monokai_sublime.css">
 
     <title>Enterprise Prototype</title>
