@@ -139,5 +139,5 @@ module.exports = function(grunt) {
   grunt.registerTask('build', ['clean', 'copy', 'includereplace', 'sass']);
   grunt.registerTask('default', ['build', 'connect', 'watch']);
   // for heroku hosting
-  grunt.registerTask('heroku', ['clean', 'copy', 'includereplace', 'sass']);
+  grunt.registerTask('heroku', ['build']);
 };
