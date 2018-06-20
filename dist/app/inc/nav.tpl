@@ -8,7 +8,7 @@ The navigation item is selected by matching the 'data-id' and the "pageID" varia
    <ul class="nav nav-list">
        <li><h2 class="tree-toggler"><i class="fa fa-caret-down"></i>Overview</h2>
            <ul class="nav nav-pills nav-stacked tree">
-			 <li><a href="/" data-id="overview">Overview</a></li>
+			       <li><a href="/" data-id="overview">Overview</a></li>
              <li><a href="@@context/explorer" data-id="pa-explorer">@@titleExplorer</a></li>
            </ul>
        </li>

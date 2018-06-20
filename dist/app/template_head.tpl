@@ -17,7 +17,7 @@
 
     <!-- Favicons
     ================================================== -->
-    <!-- link rel="shortcut icon" href="@@context/_/img/favicon.ico" -->
+    <link rel="shortcut icon" href="@@context/_/img/favicon.ico">
     <link rel="apple-touch-icon" href="@@context/_/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="@@context/_/img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="@@context/_/img/apple-touch-icon-114x114.png">
@@ -58,11 +58,6 @@
 
 
     <link rel="stylesheet" href="@@context/_/bower_components/highlightjs/styles/monokai_sublime.css">
-
-    <!-- Temporary solution (should be in Vendavo npm repository => we need budget) -->
-    <!-- Versioning maybe needed too -->
-    <script src="@@pezziLocation"></script>
-
 
     <title>Enterprise Prototype</title>
   </head>

@@ -57,9 +57,6 @@
         hljs.highlightBlock(item);
       });
     </script>
-
-    <!-- FOR DEV PURPOSES: LiveReload -->
-    <script src="//localhost:35729/livereload.js"></script>
     
   </body>
 </html>

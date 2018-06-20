@@ -55,11 +55,6 @@
 
     <link rel="stylesheet" href="@@context/_/bower_components/highlightjs/styles/monokai_sublime.css">
 
-    <!-- Temporary solution (should be in Vendavo npm repository => we need budget) -->
-    <!-- Versioning maybe needed too -->
-    <script src="@@pezziLocation"></script>
-
-
     <title>Enterprise Prototype</title>
   </head>
 
