@@ -17,7 +17,7 @@
 
     <!-- Favicons
     ================================================== -->
-    <!-- link rel="shortcut icon" href="@@context/_/img/favicon.ico" -->
+    <link rel="shortcut icon" href="@@context/_/img/favicon.ico">
     <link rel="apple-touch-icon" href="@@context/_/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="@@context/_/img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="@@context/_/img/apple-touch-icon-114x114.png">
