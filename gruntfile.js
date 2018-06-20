@@ -109,28 +109,7 @@ module.exports = function(grunt) {
         options: {
           port: 9908,
           base: './dist/app',
-          hostname: 'localhost',
-          // middleware: function(connect, options, middlewares) {
-
-          // // CORS
-          // middlewares = [];
-
-          // middlewares.push(function(req, res, next) {
-          //   res.setHeader('Access-Control-Allow-Origin', '*');
-          //   res.setHeader('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-          //   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-          //   next();
-          // });
-
-          // middlewares.push(
-          //   connect.static(options.base)
-          // );
-          // middlewares.push(
-          //   connect.directory(options.base)
-          // );
-
-          // return middlewares;
-          // }
+          hostname: 'localhost'
         }
       }
     }
