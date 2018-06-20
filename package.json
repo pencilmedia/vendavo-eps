@@ -34,6 +34,6 @@
   "scripts": {
     "start": "node app.js",
     "build": "grunt build",
-    "postinstall": "npm run heroku"
+    "postinstall": "npm run build"
   }
 }
