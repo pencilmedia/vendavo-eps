@@ -8,7 +8,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   require('load-grunt-tasks')(grunt);
 
-  var optionsContext = grunt.option('context') || '';
+  var optionsContext = grunt.option('context') || '../';
   var optionsDev = grunt.option('dev') || false; 
 
   grunt.initConfig({
@@ -46,8 +46,7 @@ module.exports = function(grunt) {
             titleExplorer: 'Price Explorer',
 
             // Use them as e.g. @@context
-            context: optionsContext,  
-            pezziLocation: optionsDev ? 'http://localhost:3000/dist/Pezzi.build.js' : 'http://ux01-paux.xenre.vendavo.com/pezzi/Pezzi.build.js'
+            context: optionsContext
           }
           
         },
