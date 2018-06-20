@@ -40,7 +40,7 @@ module.exports = function(grunt) {
             titleTooltip: 'Tooltips',
 
             // Patterns
-            titleTable: 'Table',
+            titleTbls: 'Table',
 
             // Prototype Pages
             titleExplorer: 'Price Explorer',

@@ -35,7 +35,7 @@
 <div class="col-sm-4">
   <h2>Patterns</h2>
   <ul class="nav nav-stacked">
-      <li><a href="@@context/patterns/tables/" data-id="tables">@@titleTable</a></li>
+      <li><a href="@@context/patterns/tables/" data-id="tables">@@titleTbls</a></li>
   </ul>
 </div>
 <div class="row">

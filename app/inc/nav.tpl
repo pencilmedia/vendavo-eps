@@ -44,7 +44,7 @@ The navigation item is selected by matching the 'data-id' and the "pageID" varia
        </li>
        <li><h2 class="tree-toggler"><i class="fa fa-caret-down"></i>Patterns</h2>
            <ul class="nav nav-pills nav-stacked tree">
-              <li><a href="@@context/patterns/tables/" data-id="tables">@@titleTable</a></li>
+              <li><a href="@@context/patterns/tables/" data-id="tables">@@titleTbls</a></li>
            </ul>
        </li>
    </ul>
