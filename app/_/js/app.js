@@ -53,43 +53,107 @@
             });
          });
      },
-     // Highchart Dummy Chart - THROW AWAY WHEN DONE
-     ////////////////////////
-     renderHChartPrototypeOnly: function() {
-        $('#highchart').highcharts({
-            chart: {
-                type: 'pie'
-            },
-            title: {
-                text: ' '
-            },
-            credits: {
-                enabled: false
-            },
-            plotOptions: {
-                pie: {
-                    center: ["50%", "50%"],
-                    dataLabels: {
-                        enabled: false
-                    }
-                }
-            },
-            series: [{
-                data: [
-                    ['Firefox',   44.2],
-                    ['IE7',       26.6],
-                    ['IE6',       20],
-                    ['Chrome',    3.1],
-                    ['Other',    5.4]
-                ]
-            }]
-        });
-     },
      // // Work Area Pane
      // ////////////////////////
      togglePane: function() {
-         // Render High Charts
-         app.renderHChartPrototypeOnly();
+
+        $('a[data-id="tab-pie-chart"]').on('shown.bs.tab', function (e) {
+            // Highchart Dummy Chart - THROW AWAY WHEN DONE
+            Highcharts.chart('highchart', {
+                chart: {
+                  plotBackgroundColor: null,
+                  plotBorderWidth: null,
+                  plotShadow: false,
+                  type: 'pie'
+                },
+                title: {
+                  text: 'Browser market shares in January, 2018'
+                },
+                tooltip: {
+                  pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                  pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    center: ["50%", "50%"],
+                    dataLabels: {
+                      enabled: true,
+                      format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                      style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                      }
+                    }
+                  }
+                },
+                series: [{
+                  name: 'Brands',
+                  colorByPoint: true,
+                  data: [{
+                    name: 'Chrome',
+                    y: 61.41,
+                    sliced: true,
+                    selected: true
+                  }, {
+                    name: 'Internet Explorer',
+                    y: 11.84
+                  }, {
+                    name: 'Firefox',
+                    y: 10.85
+                  }, {
+                    name: 'Edge',
+                    y: 4.67
+                  }, {
+                    name: 'Safari',
+                    y: 4.18
+                  }, {
+                    name: 'Sogou Explorer',
+                    y: 1.64
+                  }, {
+                    name: 'Opera',
+                    y: 1.6
+                  }, {
+                    name: 'QQ',
+                    y: 1.2
+                  }, {
+                    name: 'Other',
+                    y: 2.61
+                  }]
+                }]
+              });
+            // $('#highchart').highcharts({
+            //     chart: {
+            //         type: 'pie'
+            //     },
+            //     title: {
+            //         text: ' '
+            //     },
+            //     credits: {
+            //         enabled: false
+            //     },
+            //     plotOptions: {
+            //         pie: {
+            //             center: ["50%", "50%"],
+            //             dataLabels: {
+            //                 enabled: false
+            //             }
+            //         }
+            //     },
+            //     series: [{
+            //         data: [
+            //             ['Firefox',   44.2],
+            //             ['IE7',       26.6],
+            //             ['IE6',       20],
+            //             ['Chrome',    3.1],
+            //             ['Other',    5.4]
+            //         ]
+            //     }]
+            // });
+
+            // e.target // newly activated tab
+            // e.relatedTarget // previous active tab
+          })
+
 
          // Chart Pane - Toggle Open/Close
         $('[data-open-pane]').on("click", function() {

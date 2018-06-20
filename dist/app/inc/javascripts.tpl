@@ -9,7 +9,6 @@
 
 		<!-- Plug-Ins -->
 		<script src="/_/bower_components/fastclick/lib/fastclick.js"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.0.7/adapters/standalone-framework.js"></script>
 
 		<!-- Bootstrap Components -->
 		<script src="/_/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

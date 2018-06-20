@@ -18,14 +18,17 @@
     ================================================== -->
 
     <!--jQuery CDN -->
-    <script src="@@context/_/bower_components/jquery/dist/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
 
     <!-- Plug-Ins -->
     <script src="@@context/_/bower_components/fastclick/lib/fastclick.js"></script>
     <script src="@@context/_/bower_components/select2-ng/select2.min.js"></script>
     <script src="@@context/_/bower_components/jquery.truncator/jquery.truncator.js"></script>
     <script src="@@context/_/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.0.7/adapters/standalone-framework.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
 
     <!-- Polyfills - create support for unsupported browsers
     ... Will be added here ... -->
