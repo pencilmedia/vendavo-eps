@@ -32,6 +32,7 @@
     "mkdirp": ">=0.5.0"
   },
   "scripts": {
+    // For Heroku Hosting
     "start": "node app.js",
     "build": "grunt build",
     "postinstall": "npm run build"
